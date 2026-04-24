@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+data/chroma/
+data/sqlite/
+data/pdfs/*.pdf
+*.egg-info/
+.DS_Store
+node_modules/
+dist/
+.next/

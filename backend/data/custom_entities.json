@@ -1,0 +1,10 @@
+[
+  { "pattern": "\\bCNAS\\b", "type": "organization" },
+  { "pattern": "\\bMinistry of Health\\b", "type": "organization" },
+  { "pattern": "\\bMinist[eè]re de la Sant[eé]\\b", "type": "organization" },
+  { "pattern": "\\bwilaya\\b", "type": "location" },
+  { "pattern": "\\bAlg[eé]rie\\b", "type": "location" },
+  { "pattern": "\\bAlgeria\\b", "type": "location" },
+  { "pattern": "\\bACE inhibitor(?:s)?\\b", "type": "technique" },
+  { "pattern": "\\bIELTS\\b", "type": "concept" }
+]

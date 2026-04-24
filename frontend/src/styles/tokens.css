@@ -1,0 +1,105 @@
+:root {
+  /* Backgrounds */
+  --bg-0: #0f1117;
+  --bg-1: #13161d;
+  --surface-1: #16181f;
+  --surface-2: #1e2028;
+  --surface-3: #272b36;
+  --surface-message: rgba(255, 255, 255, 0.02);
+
+  /* Borders */
+  --border: #2a2d3a;
+  --border-subtle: #20232d;
+
+  /* Text */
+  --text-0: #f3f4fa;
+  --text-1: #e2e4ec;
+  --text-2: #8b8fa8;
+  --text-muted: #626780;
+
+  /* Accent */
+  --accent: #c084fc;
+  --accent-hover: rgba(192, 132, 252, 0.22);
+  --accent-subtle: rgba(192, 132, 252, 0.12);
+  --accent-border: rgba(192, 132, 252, 0.35);
+  --accent-glow: rgba(192, 132, 252, 0.72);
+
+  /* Semantic */
+  --success: #10b981;
+  --warning: #f59e0b;
+  --error: #ef4444;
+
+  /* Graph */
+  --edge-color: #3a3d52;
+  --edge-hover: rgba(192, 132, 252, 0.55);
+
+  /* Fonts */
+  --font-display: "Inter", "Noto Sans Arabic", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", "Fira Code", monospace;
+
+  /* Font Sizes */
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+  --text-3xl: 1.875rem;
+  --text-4xl: 2.25rem;
+
+  /* Labels & Captions */
+  --label-size: 0.75rem;
+  --label-tracking: 0.18em;
+  --hint-size: 0.8125rem;
+  --body-size: 0.9375rem;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 16px 36px rgba(0, 0, 0, 0.32);
+  --shadow-glow: 0 0 24px rgba(139, 92, 246, 0.35);
+
+  /* Backwards-compatible aliases used by the current components */
+  --bg: var(--bg-0);
+}
+
+/* ─── Light mode ────────────────────────────────────────────────── */
+[data-theme="light"] {
+  /* Backgrounds */
+  --bg-0: #f5f6fb;
+  --bg-1: #eef0f8;
+  --surface-1: #ffffff;
+  --surface-2: #f0f2fa;
+  --surface-3: #e8ebf5;
+  --surface-message: rgba(124, 58, 237, 0.04);
+
+  /* Borders */
+  --border: #d4d8ec;
+  --border-subtle: #dfe3f2;
+
+  /* Text */
+  --text-0: #0d0f1a;
+  --text-1: #252840;
+  --text-2: #5b6180;
+  --text-muted: #8b90aa;
+
+  /* Accent — deeper purple for contrast on white */
+  --accent: #7c3aed;
+  --accent-hover: rgba(124, 58, 237, 0.10);
+  --accent-subtle: rgba(124, 58, 237, 0.08);
+  --accent-border: rgba(124, 58, 237, 0.28);
+  --accent-glow: rgba(124, 58, 237, 0.55);
+
+  /* Semantic (unchanged) */
+  --success: #059669;
+  --warning: #d97706;
+  --error: #dc2626;
+
+  /* Graph */
+  --edge-color: #bdc2d8;
+  --edge-hover: rgba(124, 58, 237, 0.45);
+
+  /* Shadows — lighter for day mode */
+  --shadow-sm: 0 1px 3px rgba(15, 17, 30, 0.10);
+  --shadow-md: 0 8px 32px rgba(15, 17, 30, 0.12);
+  --shadow-glow: 0 0 24px rgba(124, 58, 237, 0.16);
+}
